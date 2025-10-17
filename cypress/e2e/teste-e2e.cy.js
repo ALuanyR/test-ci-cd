@@ -13,7 +13,7 @@ describe("Testes End to end - QA Playground", () => {
     cy.preencherForm("Luany", "luany@teste.com", 27);
     cy.get("#form-feedback").should(
       "contain",
-      "Formulário enviado com erro!"
+      "Formulário enviado com sucesso!"
     );
   });
 
