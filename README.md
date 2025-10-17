@@ -32,7 +32,7 @@ O objetivo é testar funcionalidades da página pública:
 ### 1. Clone o repositório
 ```bash
 git clone https://github.com/QA-Impact/teste-ci-cd.git
-cd teste-ci-cd
+cd test-ci-cd
 ```
 
 ### 2. Instale as dependências

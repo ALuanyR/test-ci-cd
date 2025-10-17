@@ -1,0 +1,24 @@
+name: Teste CI-CD Cypress
+
+on:
+  push:
+    branches: -main
+
+jobs:
+  Cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout no código
+        uses: actions-checkout@v3
+
+      - name: Setup do Node
+        uses: actions/setuo-node@v4
+        with:
+          node-version: 18
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Executar testes
+        run: npm run test
