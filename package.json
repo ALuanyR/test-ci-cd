@@ -7,7 +7,7 @@
     "test": "npx cypress run --browser chrome",
     "allure:serve": "npx allure-commandline serve allure-results",
     "report": "npm run --clean allure:serve",
-    "report-ci": "npx allure generate --clean allure-results -o allure-results"
+    "report-ci": "npx allure generate --clean allure-results -o allure-report"
   },
   "keywords": [],
   "author": "",
