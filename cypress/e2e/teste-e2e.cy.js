@@ -9,8 +9,8 @@ describe("Testes End to end - QA Playground", () => {
     cy.screenshot();
   });
 
-  it.only('Teste novo', () => {
-    cy.log("Teste passando")
+  it("Teste novo", () => {
+    cy.log("Teste passando");
   });
 
   it("Deve preencher o formulário com sucesso", () => {
