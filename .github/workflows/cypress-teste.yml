@@ -2,8 +2,9 @@ name: Teste CI-CD Cypress
 
 on:
   push:
-    branches: 
-        - main
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   Cypress-run:
