@@ -9,6 +9,10 @@ describe("Testes End to end - QA Playground", () => {
     cy.screenshot();
   });
 
+  it.only('Teste novo', () => {
+    cy.log("Teste passando")
+  });
+
   it("Deve preencher o formulário com sucesso", () => {
     cy.preencherForm("Luany", "luany@teste.com", 27);
     cy.get("#form-feedback").should(
