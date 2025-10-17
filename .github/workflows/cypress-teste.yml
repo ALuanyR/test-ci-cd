@@ -2,7 +2,8 @@ name: Teste CI-CD Cypress
 
 on:
   push:
-    branches: -main
+    branches: 
+        - main
 
 jobs:
   Cypress-run:
